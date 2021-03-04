@@ -1,10 +1,10 @@
 #!/bin/bash
 
-rm soysauce_repo*
+rm SoySauce_repo*
 
 echo "repo-add"
 #repo-add -s -n -R carli_repo.db.tar.gz *.pkg.tar.zst
-repo-add -s -n -R soysauce_repo.db.tar.gz *.pkg.tar.zst
+repo-add -s -n -R SoySauce_repo.db.tar.gz *.pkg.tar.zst
 sleep 5
 #cp arcolinux_repo_testing.db.tar.gz arcolinux_repo_testing.db
 
